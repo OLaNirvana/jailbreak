@@ -15,7 +15,7 @@ text-align: center;
 color: white;
 }
 .btn {
-background-color: #003263;
+background-color: #23191e;
 color: white;
 width: 227px;
 height: 46px;
@@ -35,7 +35,7 @@ cursor: pointer;
 border-radius: 8px;
 }
 .btn:hover {
-background-color: #0058b1;
+background-color: #fe6f5e;
 }
 .btn-web {
 background-color: #076300;
