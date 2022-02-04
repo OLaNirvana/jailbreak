@@ -148,22 +148,3 @@ border-radius: 8px;
      }
    }
    
-.btn:hover {
-background-color: #551606;
-}
-
-.btn-web {
-background-color: #C34A2C;
-}
-
-.btn-web:hover {
-background-color: #551606;
-}
-
-.btn-toolbox {
-background-color: #C34A2C;
-}
-
-.btn-toolbox:hover {
-background-color: #551606;
-}
