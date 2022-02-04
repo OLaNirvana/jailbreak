@@ -15,7 +15,7 @@ text-align: center;
 color: white;
 }
 .btn {
-background-color: #23191e;
+background-color: ###C34A2C;
 color: white;
 width: 181px;
 height: 36px;
@@ -35,17 +35,17 @@ cursor: pointer;
 border-radius: 8px;
 }
 .btn:hover {
-background-color: #fe6f5e;
+background-color: ##551606;
 }
 .btn-web {
-background-color: #23191e;
+background-color: ###C34A2C;
 }
 .btn-web:hover {
-background-color: #fe6f5e;
+background-color: ##551606;
 }
 .btn-toolbox {
-background-color: #23191e;
+background-color: ###C34A2C;
 }
 .btn-toolbox:hover {
-background-color: #fe6f5e;
+background-color: ##551606;
 }
