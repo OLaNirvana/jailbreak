@@ -38,14 +38,14 @@ border-radius: 8px;
 background-color: #fe6f5e;
 }
 .btn-web {
-background-color: #076300;
+background-color: #23191e;
 }
 .btn-web:hover {
-background-color: #18891b;
+background-color: #fe6f5e;
 }
 .btn-toolbox {
-background-color: #ae2301;
+background-color: #23191e;
 }
 .btn-toolbox:hover {
-background-color: #d42a01;
+background-color: #fe6f5e;
 }
