@@ -1,7 +1,6 @@
 CACHE MANIFEST 
 
 CACHE: 
-mods.html
 app2usb.js
 backup.js
 disable-aslr.js
@@ -24,7 +23,6 @@ malloc.js
 module-dumper.js
 Orbis-Toolbox-900.js
 netcat.js
-payload.html
 payload.js
 permanent-uart.js
 ps4debug.js
@@ -40,17 +38,3 @@ todex.js
 webactivator.html
 webkit.js
 webrte.js
-arabic-guy127.js
-arabic-guy132.js
-arabic-guy133.js
-BeefQueefMod-133.js
-BeefQueefMod-134.js
-BeefQueefMod-138d.js
-OystersMenu-v1.3.5-1.00.js
-OystersMenu-v1.3.5-1.13.js
-OystersMenu-v1.3.5-1.19.js
-OystersMenu-v1.3.5-1.24.js
-OystersMenu-v1.3.5-1.29.js
-WildeModz-1.32-1.1.js
-WildeModz-1.33-1.1.js
-WildeModz-1.38-1.3.js
