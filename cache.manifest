@@ -1,6 +1,7 @@
 CACHE MANIFEST 
 
 CACHE: 
+mods.html
 app2usb.js
 backup.js
 disable-aslr.js
