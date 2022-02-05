@@ -3,7 +3,7 @@ background-image: url('img.jpg');
 background-size: 100%;
 background-repeat: no-repeat;
 background-color: #24272b;
-color: #FFFF66;
+color: #FFFF99;
 text-align: center;
 margin: 0px;
 overflow: hidden;
@@ -12,7 +12,7 @@ h1 {
 text-shadow: 0.1em 0.1em 0.2em black;
 font-size: 25px;
 text-align: center;
-color: #FFFF66;
+color: #FFFF99;
 }
 .btn {
 background-color: #551606;
