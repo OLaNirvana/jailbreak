@@ -1,7 +1,6 @@
 CACHE MANIFEST 
 
 CACHE: 
-OystersMenu-v1.3.5-1.13.js
 app2usb.js
 backup.js
 disable-aslr.js
@@ -13,6 +12,7 @@ exploit.js
 fan-threshold.js
 frontend.js
 ftp.js
+gta5.js
 goldHen.js
 history-blocker.js
 img.jpg
@@ -22,11 +22,12 @@ kernel-dumper.js
 kexploit.js
 malloc.js
 module-dumper.js
-Orbis-Toolbox-900.js
 netcat.js
+orbis-tolbox.js
 payload.js
 permanent-uart.js
 ps4debug.js
+rdr2.js
 relocator.js
 restore.js
 rif-renamer.js
