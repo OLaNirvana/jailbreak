@@ -54,8 +54,10 @@ function DisplayCacheProgress(){setTimeout(function(){window.msgs.innerHTML="Cac
 <button class="btn btn-toolbox" onclick=load_toolbox()> Orbis-Toolbox </button>
 <button class="btn" onclick=load_fanthreshold() style="margin-right: 8px;"> Fan Threshold </button><select id="tempC"></select>&#176;C
 <br>
-<h1 style="font-size:18px;color:#FFFF99;"> Oysters Menu </h1>
-<button class="btn btn-web" onclick=load_Oysters113() style="width: 468px;"> Cheat Red Dead Redemption 2 </button>
+<h1 style="font-size:18px;color:#FFFF99;"> Cheat Mods Menu </h1>
+<button class="btn btn-cheat" onclick=load_Expulsion()> Grand Theft Auto 5 </button>
+<br>
+<button class="btn btn-cheat" onclick=load_Oysters113()> Red Dead Redemption 2 </button>
 <br>
 
 <script>
@@ -215,9 +217,16 @@ run_jb = "payload";
 setTimeout(poc,1500);
 }
 
+function load_Expulsion(){
+var script = document.createElement('script');script.src = "Expulsion-v3.0.js";document.getElementsByTagName('head')[0].appendChild(script);
+msgs.innerHTML="Loading Expulsion Menu GtaV... Please Wait !!!"
+run_jb = "payload";
+setTimeout(poc,1500);
+}
+
 function load_Oysters113(){
 var script = document.createElement('script');script.src = "OystersMenu-v1.3.5-1.13.js";document.getElementsByTagName('head')[0].appendChild(script);
-msgs.innerHTML="Loading Oysters Menu v1.13... Please Wait !!!"
+msgs.innerHTML="Loading Oysters Menu Rdr2... Please Wait !!!"
 run_jb = "payload";
 setTimeout(poc,1500);
 }
