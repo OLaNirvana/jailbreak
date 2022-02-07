@@ -23,7 +23,7 @@ kexploit.js
 malloc.js
 module-dumper.js
 netcat.js
-orbis-tolbox.js
+orbis-toolbox.js
 payload.js
 permanent-uart.js
 ps4debug.js
