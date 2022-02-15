@@ -3,7 +3,6 @@ background-image: url('img.jpg');
 background-size: 100%;
 background-repeat: no-repeat;
 background-color: #24272b;
-font-family: "amaranthe";
 color: #FFFF99;
 text-align: center;
 margin: 0px;
@@ -11,7 +10,6 @@ overflow: hidden;
 }
 h1 {
 text-shadow: 0.1em 0.1em 0.2em black;
-font-family: "amaranthe";
 font-size: 25px;
 text-align: center;
 color: #FFFF99;
@@ -23,7 +21,6 @@ width: 181px;
 height: 36px;
 padding-bottom: 5px;
 text-align: center;
-font-family: "amaranthe";
 font-size: 20px;
 margin-top: 8px;
 margin-bottom: 8px;
