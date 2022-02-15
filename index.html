@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html manifest="cache.manifest"><head>
-<title>Nirvana JailBreak</title>
+<title>Nirvana 😋</title>
 <link rel="stylesheet" href="style.css">
 <script src="int64.js"></script>
 <script src="rop.js"></script>
@@ -19,7 +19,7 @@ function DisplayCacheProgress(){setTimeout(function(){window.msgs.innerHTML="Cac
 <h1 style="font-size:20px;color:#FFFF99;">Main PayLoads</h1>
 <br>
 <br>
-<button class="btn" onclick=load_goldhen20()> GoldHEN </button>
+<button class="btn" onclick=load_goldHen()> GoldHEN </button>
 &emsp; &emsp; &emsp;
 &emsp; &emsp; &emsp;
 &emsp; &emsp; &emsp;
@@ -54,11 +54,11 @@ function DisplayCacheProgress(){setTimeout(function(){window.msgs.innerHTML="Cac
 <button class="btn btn-toolbox" onclick=load_toolbox()> Orbis-Toolbox </button>
 <button class="btn" onclick=load_fanthreshold() style="margin-right: 8px;"> Fan Threshold </button><select id="tempC"></select>&#176;C
 <br>
-<h1 style="font-size:18px;color:#FFFF99;"> Cheat Mods Menu </h1>
+<h1 style="font-size:18px;color:#FFFF99;"> Cheat Mod Menu </h1>
 <button class="btn btn-cheat" onclick=load_Expulsion()> Grand Theft Auto 5 </button>
 <br>
 &emsp; &emsp; &emsp;
-<button class="btn btn-cheat" onclick=load_Oysters113()> Red Dead Redemption 2 </button>
+<button class="btn btn-cheat" onclick=load_Oysters()> Red Dead Redemption 2 </button>
 <br>
 
 <script>
@@ -73,7 +73,7 @@ tempC.value=60;
 </script>
 <script>
 
-function load_goldhen20(){
+function load_goldHen(){
 var script = document.createElement('script');script.src = "goldHen.js";document.getElementsByTagName('head')[0].appendChild(script);
 msgs.innerHTML="Loading GoldHEN... Please Wait !!!";
 run_jb = "payload";
@@ -219,14 +219,14 @@ setTimeout(poc,1500);
 }
 
 function load_Expulsion(){
-var script = document.createElement('script');script.src = "Expulsion-v3.0.js";document.getElementsByTagName('head')[0].appendChild(script);
+var script = document.createElement('script');script.src = "gta5.js";document.getElementsByTagName('head')[0].appendChild(script);
 msgs.innerHTML="Loading Expulsion Menu GtaV... Please Wait !!!"
 run_jb = "payload";
 setTimeout(poc,1500);
 }
 
-function load_Oysters113(){
-var script = document.createElement('script');script.src = "OystersMenu-v1.3.5-1.13.js";document.getElementsByTagName('head')[0].appendChild(script);
+function load_Oysters(){
+var script = document.createElement('script');script.src = "rdr2.js";document.getElementsByTagName('head')[0].appendChild(script);
 msgs.innerHTML="Loading Oysters Menu Rdr2... Please Wait !!!"
 run_jb = "payload";
 setTimeout(poc,1500);
