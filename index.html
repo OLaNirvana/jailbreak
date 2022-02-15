@@ -62,14 +62,14 @@ function DisplayCacheProgress(){setTimeout(function(){window.msgs.innerHTML="Cac
 <br>
 
 <script>
-for(var i=40; i<=79; i++){
+for(var i=65; i<=70; i++){
     var select = document.getElementById("tempC");
     var option = document.createElement("OPTION");
 	select.options.add(option);
 	option.text = i;
 	option.value = i;
 }
-tempC.value=60;
+tempC.value=67;
 </script>
 <script>
 
@@ -205,7 +205,7 @@ setTimeout(poc,1500);
 }
 
 function load_toolbox(){
-var script = document.createElement('script');script.src = "Orbis-Toolbox-900.js";document.getElementsByTagName('head')[0].appendChild(script);
+var script = document.createElement('script');script.src = "orbis-toolbox.js";document.getElementsByTagName('head')[0].appendChild(script);
 msgs.innerHTML="Loading Orbis-Toolbox... Please Wait !!!"
 run_jb = "payload";
 setTimeout(poc,1500);
