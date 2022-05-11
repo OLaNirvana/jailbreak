@@ -46,7 +46,7 @@ function DisplayCacheProgress(){setTimeout(function(){window.msgs.innerHTML="Cac
 <button class="btn" onclick=load_disbAslr()> Disable ASLR </button>
 <button class="btn" onclick=load_exitidu()> Exit IDU </button>
 <button class="btn" onclick=load_rifRen()> RIF Renamer </button>
-<button class="btn" onclick=load_permUart()> Permanent UART </button>
+<button class="btn" onclick=load_pkgback()> Pkg Backup </button>
 <button class="btn" onclick=load_webrte()> WebRTE </button>
 <br>
 <a href="webactivator.html"><button class="btn" style="margin-left: 77px;"> Web-Activator </button></a>
@@ -187,9 +187,9 @@ run_jb = "payload";
 setTimeout(poc,1500);
 }
 
-function load_permUart(){
-var script = document.createElement('script');script.src = "permanent-uart.js";document.getElementsByTagName('head')[0].appendChild(script);
-msgs.innerHTML="Loading Permanent UART... Please Wait !!!"
+function load_pkgback(){
+var script = document.createElement('script');script.src = "pkg-backup.bin";document.getElementsByTagName('head')[0].appendChild(script);
+msgs.innerHTML="Loading Pkg Backup... Please Wait !!!"
 run_jb = "payload";
 setTimeout(poc,1500);
 }
