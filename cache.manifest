@@ -13,7 +13,7 @@ exploit.js
 fan-threshold.js
 frontend.js
 ftp.js
-goldHen.bin
+goldHen.js
 gta5.js
 history-blocker.js
 img.jpg
@@ -26,7 +26,7 @@ module-dumper.js
 netcat.js
 orbis-toolbox.js
 payload.js
-pkg-backup.bin
+pkg-backup.js
 ps4debug.js
 rdr2.js
 relocator.js
