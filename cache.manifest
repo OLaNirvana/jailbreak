@@ -3,6 +3,7 @@ CACHE MANIFEST
 CACHE: 
 app2usb.js
 backup.js
+config.cfg
 disable-aslr.js
 disable-updates.js
 dumper.js
