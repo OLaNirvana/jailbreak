@@ -19,7 +19,6 @@ function DisplayCacheProgress(){setTimeout(function(){window.msgs.innerHTML="Cac
 <h1 style="font-size:20px;color:#FFFF99;">Main PayLoads</h1>
 <br>
 <br>
-<button class="btn" onclick=load_goldHen()> GoldHEN </button>
 <br>
 <br>
 <br>
@@ -47,9 +46,6 @@ function DisplayCacheProgress(){setTimeout(function(){window.msgs.innerHTML="Cac
 <button class="btn btn-toolbox" onclick=load_toolbox()> Orbis-Toolbox </button>
 <button class="btn" onclick=load_fanthreshold() style="margin-right: 8px;"> Fan Threshold </button><select id="tempC"></select>&#176;C
 <br>
-<h1 style="font-size:18px;color:#FFFF99;"> Cheat Mod Menu </h1>
-<button class="btn btn-cheat" onclick=load_WildeModz()> Grand Theft Auto 5 </button>
-<button class="btn btn-cheat" onclick=load_Oysters()> Red Dead Redemption 2 </button>
 <br>
 
 <script>
@@ -64,12 +60,6 @@ tempC.value=75;
 </script>
 <script>
 
-function load_goldHen(){
-var script = document.createElement('script');script.src = "goldHen.js";document.getElementsByTagName('head')[0].appendChild(script);
-msgs.innerHTML="Loading GoldHEN... Please Wait !!!";
-run_jb = "payload";
-setTimeout(poc,1500);
-}
 
 function load_todex(){
 var script = document.createElement('script');script.src = "todex.js";document.getElementsByTagName('head')[0].appendChild(script);
@@ -199,20 +189,6 @@ setTimeout(poc,1500);
 function load_fanthreshold(){
 var script = document.createElement('script');script.src = "fan-threshold.js";localStorage.setItem('fanthreshold', tempC.value);document.getElementsByTagName('head')[0].appendChild(script);
 msgs.innerHTML="Loading Fan Threshold... Please Wait !!!"
-run_jb = "payload";
-setTimeout(poc,1500);
-}
-
-function load_WildeModz(){
-var script = document.createElement('script');script.src = "gta5.js";document.getElementsByTagName('head')[0].appendChild(script);
-msgs.innerHTML="Loading WildeModz Menu GtaV... Please Wait !!!"
-run_jb = "payload";
-setTimeout(poc,1500);
-}
-
-function load_Oysters(){
-var script = document.createElement('script');script.src = "rdr2.js";document.getElementsByTagName('head')[0].appendChild(script);
-msgs.innerHTML="Loading Oysters Menu Rdr2... Please Wait !!!"
 run_jb = "payload";
 setTimeout(poc,1500);
 }
