@@ -19,13 +19,7 @@ function DisplayCacheProgress(){setTimeout(function(){window.msgs.innerHTML="Cac
 <h1 style="font-size:20px;color:#FFFF99;">Main PayLoads</h1>
 <br>
 <br>
-<button class="btn" onclick=load_goldHen23()> GoldHEN 2.3 </button>
-&emsp; &emsp; &emsp;
-&emsp; &emsp; &emsp;
-&emsp; &emsp; &emsp;
-&emsp; &emsp;
-&emsp; &emsp;
-<button class="btn" onclick=load_goldHen24()> GoldHEN 2.4 </button>
+<button class="btn" onclick=load_goldHen()> GoldHEN </button>
 <br>
 <br>
 <br>
@@ -70,16 +64,9 @@ tempC.value=75;
 </script>
 <script>
 
-function load_goldHen23(){
-var script = document.createElement('script');script.src = "goldHen23.js";document.getElementsByTagName('head')[0].appendChild(script);
-msgs.innerHTML="Loading GoldHEN2.3... Please Wait !!!";
-run_jb = "payload";
-setTimeout(poc,1500);
-}
-
-function load_goldHen24(){
-var script = document.createElement('script');script.src = "goldHen24.js";document.getElementsByTagName('head')[0].appendChild(script);
-msgs.innerHTML="Loading GoldHEN2.4... Please Wait !!!";
+function load_goldHen(){
+var script = document.createElement('script');script.src = "goldHen.js";document.getElementsByTagName('head')[0].appendChild(script);
+msgs.innerHTML="Loading GoldHEN... Please Wait !!!";
 run_jb = "payload";
 setTimeout(poc,1500);
 }
