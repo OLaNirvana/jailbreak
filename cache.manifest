@@ -13,7 +13,6 @@ exploit.js
 fan-threshold.js
 frontend.js
 ftp.js
-gta5.js
 history-blocker.js
 img.jpg
 index.html
@@ -27,7 +26,6 @@ orbis-toolbox.js
 payload.js
 pkg-backup.js
 ps4debug.js
-rdr2.js
 relocator.js
 restore.js
 rif-renamer.js
